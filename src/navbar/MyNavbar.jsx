@@ -5,15 +5,17 @@ export default function Nav() {
     <div>
       <ul style={{ listStyle: "none", display: "flex" }}>
         <li
+          
           style={{
             paddingTop: ".5rem",
             paddingBottom: "1rem",
             fontSize: "2rem",
             lineHeight: "2.5rem",
-            cursor:"pointer"
+            cursor: "pointer",
           }}
         >
-          Home{" "}
+          <a href="#Home" style={{textDecoration:"none",outline:"none"}}>Home</a>
+          
         </li>
         <li
           style={{
@@ -21,10 +23,9 @@ export default function Nav() {
             paddingBottom: "1rem",
             fontSize: "2rem",
             lineHeight: "2.5rem",
-            cursor:"pointer",
-            marginLeft:"1rem",
-            marginRight:"1rem"
-            
+            cursor: "pointer",
+            marginLeft: "1rem",
+            marginRight: "1rem",
           }}
         >
           About{" "}
@@ -35,12 +36,12 @@ export default function Nav() {
             paddingBottom: "1rem",
             fontSize: "2rem",
             lineHeight: "2.5rem",
-            cursor:"pointer"
+            cursor: "pointer",
           }}
         >
-          Footer{" "}
+          <a href="#footer" style={{textDecoration:"none",outline:"none"}}>Footer</a>
+          
         </li>
-        
       </ul>
     </div>
   );
