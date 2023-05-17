@@ -39,7 +39,7 @@ export default function Myinfo() {
             fontWeight: "700",
           }}
         >
-          Sanjina jaman Sinchu
+          Badhon Biswas
         </span>
         <p className="text-clip">
           I am a Computer Science Student in Bangladesh. Since beginning my

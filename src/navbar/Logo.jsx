@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assist/logo.jpg";
+import img1 from "../assist/Logo.jpg";
 export default function Logo() {
   return (
     <div
@@ -23,7 +23,7 @@ export default function Logo() {
           marginTop:"5px"
         }}
       >
-        Sanjina jaman Sinchu
+        Badhon Biswas
       </span>
     </div>
   );
